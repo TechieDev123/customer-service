@@ -8,7 +8,7 @@ spec:
   containers:
     - name: customer-pod
       image: techiemahi123/customer-service
-      imagePullPolicy: IfNotPresent
+      imagePullPolicy: Always
       ports:
         - name: customer-pod
           containerPort: 80
